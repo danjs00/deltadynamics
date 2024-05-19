@@ -1,0 +1,605 @@
+{
+	"version": 1,
+	"deltaHotkeys": {
+		"FwHP": {
+			"t": "hk-feed",
+			"m": "",
+			"k": "W"
+		},
+		"2OcS": {
+			"t": "hk-macroFeed",
+			"m": "",
+			"k": "Q"
+		},
+		"Cv12": {
+			"t": "hk-split",
+			"m": "",
+			"k": "SPACE"
+		},
+		"4NOV": {
+			"t": "hk-doubleSplit",
+			"m": "",
+			"k": "C"
+		},
+		"LcSa": {
+			"t": "hk-popSplit",
+			"m": "",
+			"k": "ALT+Q"
+		},
+		"VnhB": {
+			"t": "hk-tripleSplit",
+			"m": "",
+			"k": ""
+		},
+		"qdCt": {
+			"t": "hk-split16",
+			"m": "",
+			"k": "M"
+		},
+		"aNs8": {
+			"t": "hk-switchPlayer",
+			"m": "",
+			"k": "TAB"
+		},
+		"6Hks": {
+			"t": "hk-quickResp",
+			"m": "",
+			"k": "TILDE"
+		},
+		"RkFK": {
+			"t": "hk-autoResp",
+			"m": "",
+			"k": ""
+		},
+		"ql1x": {
+			"t": "hk-pause",
+			"m": "",
+			"k": "R"
+		},
+		"Q2pI": {
+			"t": "hk-dance",
+			"m": "",
+			"k": ""
+		},
+		"GiHZ": {
+			"t": "hk-wave",
+			"m": "",
+			"k": ""
+		},
+		"kPRF": {
+			"t": "hk-showMiniMap",
+			"m": "",
+			"k": "ALT+M"
+		},
+		"w7t6": {
+			"t": "hk-hideChat",
+			"m": "",
+			"k": "H"
+		},
+		"7RFr": {
+			"t": "hk-clearChat",
+			"m": "",
+			"k": ""
+		},
+		"cm19": {
+			"t": "hk-chatMessage",
+			"m": "",
+			"k": "ENTER"
+		},
+		"eX8R": {
+			"t": "hk-showHUD",
+			"m": "",
+			"k": "ALT+H"
+		},
+		"D7S2": {
+			"t": "hk-showLb",
+			"m": "",
+			"k": "ALT+L"
+		},
+		"DkFM": {
+			"t": "hk-copyLb",
+			"m": "",
+			"k": "L"
+		},
+		"YuvF": {
+			"t": "hk-showTop5",
+			"m": "",
+			"k": "V"
+		},
+		"mmuF": {
+			"t": "hk-customMapTexture",
+			"m": "",
+			"k": "ALT+T"
+		},
+		"Sagu": {
+			"t": "hk-undefined",
+			"m": "",
+			"k": ""
+		},
+		"PFWJ": {
+			"t": "hk-switchCamera",
+			"m": "",
+			"k": "ALT+C"
+		},
+		"dJTj": {
+			"t": "hk-switchMarker",
+			"m": "",
+			"k": "ALT+B"
+		},
+		"RQPQ": {
+			"t": "hk-switchMergeIndicator",
+			"m": "",
+			"k": "CTRL+I"
+		},
+		"9O3B": {
+			"t": "hk-showSplitRange",
+			"m": "",
+			"k": "U"
+		},
+		"1nCk": {
+			"t": "hk-showSplitInd",
+			"m": "",
+			"k": "I"
+		},
+		"O4H5": {
+			"t": "hk-showTeammatesInd",
+			"m": "",
+			"k": "ALT+I"
+		},
+		"7wxf": {
+			"t": "hk-showOppColors",
+			"m": "",
+			"k": "O"
+		},
+		"FBFT": {
+			"t": "hk-toggleSkins",
+			"m": "",
+			"k": "A"
+		},
+		"P6TV": {
+			"t": "hk-transparentSkins",
+			"m": "",
+			"k": ""
+		},
+		"Gdul": {
+			"t": "hk-showSkins",
+			"m": "",
+			"k": "S"
+		},
+		"agV8": {
+			"t": "hk-toggleCells",
+			"m": "",
+			"k": "D"
+		},
+		"OS60": {
+			"t": "hk-showFood",
+			"m": "",
+			"k": "X"
+		},
+		"GKNa": {
+			"t": "hk-showGrid",
+			"m": "",
+			"k": "G"
+		},
+		"DSoB": {
+			"t": "hk-toggleAutoZoom",
+			"m": "",
+			"k": ""
+		},
+		"JUbU": {
+			"t": "hk-resetZoom",
+			"m": "",
+			"k": "ALT+Z"
+		},
+		"HEzh": {
+			"t": "hk-showBgSectors",
+			"m": "",
+			"k": "B"
+		},
+		"MqAJ": {
+			"t": "hk-showNames",
+			"m": "",
+			"k": "N"
+		},
+		"RyP5": {
+			"t": "hk-hideTeammatesNames",
+			"m": "",
+			"k": ""
+		},
+		"3Z12": {
+			"t": "hk-showMass",
+			"m": "",
+			"k": ""
+		},
+		"gCXM": {
+			"t": "hk-zoom1",
+			"m": "",
+			"k": "ALT+1"
+		},
+		"w9Pa": {
+			"t": "hk-zoom2",
+			"m": "",
+			"k": "ALT+2"
+		},
+		"fDZK": {
+			"t": "hk-zoom3",
+			"m": "",
+			"k": "ALT+3"
+		},
+		"NYW3": {
+			"t": "hk-zoom4",
+			"m": "",
+			"k": "ALT+4"
+		},
+		"XFNL": {
+			"t": "hk-zoom5",
+			"m": "",
+			"k": "ALT+5"
+		},
+		"c0Vq": {
+			"t": "hk-bots-split",
+			"m": "",
+			"k": "F"
+		},
+		"QPtn": {
+			"t": "hk-bots-split-x2",
+			"m": "",
+			"k": ""
+		},
+		"ZyuF": {
+			"t": "hk-bots-split-x3",
+			"m": "",
+			"k": ""
+		},
+		"FR1n": {
+			"t": "hk-bots-split-x4",
+			"m": "",
+			"k": ""
+		},
+		"ZzgB": {
+			"t": "hk-bots-split-x5",
+			"m": "",
+			"k": ""
+		},
+		"G1Gy": {
+			"t": "hk-bots-macroFeed",
+			"m": "",
+			"k": "T"
+		},
+		"Jv9o": {
+			"t": "hk-bots-ai",
+			"m": "",
+			"k": "Z"
+		},
+		"qw1X": {
+			"t": "comm",
+			"m": "",
+			"k": "1",
+			"data": "¡Aliméntame!"
+		},
+		"aam4": {
+			"t": "comm",
+			"m": "",
+			"k": "2",
+			"data": "¡Divídete en mí!"
+		},
+		"kH7H": {
+			"t": "comm",
+			"m": "",
+			"k": "3",
+			"data": "¡Necesita respaldo en %currentSector%!"
+		},
+		"1E8W": {
+			"t": "comm",
+			"m": "",
+			"k": "4",
+			"data": "¡Enemigo detectado en %currentSector%!"
+		},
+		"WaAz": {
+			"t": "comm",
+			"m": "",
+			"k": "5",
+			"data": "¡Necesito un compañero!"
+		},
+		"uaJE": {
+			"t": "comm",
+			"m": "",
+			"k": "6",
+			"data": "¡Come el virus!"
+		},
+		"kMhM": {
+			"t": "comm",
+			"m": "",
+			"k": "7",
+			"data": "¡Come el virus!"
+		},
+		"H0G6": {
+			"t": "comm",
+			"m": "",
+			"k": "8",
+			"data": "¡Haz de carnada!"
+		},
+		"Ayeb": {
+			"t": "comm",
+			"m": "",
+			"k": "9",
+			"data": "¡Tricksplit falso!"
+		},
+		"qQhB": {
+			"t": "comm",
+			"m": "",
+			"k": "0",
+			"data": "Mierda!"
+		},
+		"SrhC": {
+			"t": "comm",
+			"m": "MIDDLE MOUSE",
+			"k": "",
+			"data": "¡Tricksplit!"
+		},
+		"m6SB": {
+			"t": "comm",
+			"m": "",
+			"k": "LEFT",
+			"data": "¡Izquierda!"
+		},
+		"zaUA": {
+			"t": "comm",
+			"m": "",
+			"k": "UP",
+			"data": "¡Arriba!"
+		},
+		"s0Oc": {
+			"t": "comm",
+			"m": "",
+			"k": "RIGHT",
+			"data": "¡Derecha!"
+		},
+		"A2RQ": {
+			"t": "comm",
+			"m": "",
+			"k": "DOWN",
+			"data": "¡Abajo!"
+		}
+	},
+	"ogarioPlayerProfiles": [
+		{
+			"id": "ec613393-4135-4f69-b007-9201da6351f5",
+			"nick": "Delta Dynamics",
+			"clanTag": "",
+			"skinURL": "https://i.imgur.com/IxAwiqm.gif",
+			"color": "#3633A5"
+		}
+	],
+	"settings": {
+		"language": "es_ES",
+		"animation": 157,
+		"autoZoom": false,
+		"centerWeightCamera": true,
+		"cameraDelay": 0,
+		"zoomSpeedValue": 0.8,
+		"zoomSmoothness": 7,
+		"autoResp": true,
+		"macroFeeding": 10,
+		"mbRings": true,
+		"mbCenterCamera": true,
+		"mbSkipCameraScroll": true,
+		"mbInactiveKeepMoving": false,
+		"mbSwitchPlayerAfterDeath": true,
+		"renderer": 0,
+		"antialiasing": 1,
+		"canvasScale": 1.5,
+		"jellyPhysics": false,
+		"debug": false,
+		"oppColors": false,
+		"oppRings": false,
+		"virColors": true,
+		"splitRange": false,
+		"doubleSplitRange": false,
+		"tripleSplitRange": false,
+		"mbMultiSplitRange": false,
+		"virusesRange": true,
+		"cursorTracking": false,
+		"mbMultiCursorTracking": false,
+		"teammatesInd": true,
+		"mergeIndicator": false,
+		"showGhostCells": false,
+		"ghostCellsNames": false,
+		"spawnWaveEffect": true,
+		"vanillaSkins": true,
+		"customSkins": true,
+		"customGifSkins": true,
+		"cellStroke": false,
+		"cellStrokePlayer": false,
+		"myTransparentSkin": false,
+		"textScaleMode": 1,
+		"showNames": true,
+		"namesStroke": true,
+		"hideMyName": false,
+		"hideTeammatesNames": false,
+		"autoHideNames": true,
+		"showMass": true,
+		"massStroke": true,
+		"shortMass": true,
+		"hideMyMass": false,
+		"hideEnemiesMass": false,
+		"autoHideMass": true,
+		"massUpdateInterval": 500,
+		"showFood": true,
+		"rainbowFood": true,
+		"autoHideFood": false,
+		"autoHideFoodOnZoom": false,
+		"virMassType": 3,
+		"spikedViruses": false,
+		"showGrid": true,
+		"showBgSectors": false,
+		"customBgSectorsSymbol": "",
+		"showMapBorders": true,
+		"rainbowMapBorders": false,
+		"rainbowMapBordersSpeed": 0.2,
+		"showMiniMap": true,
+		"showMiniMapSectors": true,
+		"showMiniMapGrid": true,
+		"showMiniMapGhostCells": true,
+		"showMiniMapGuides": true,
+		"showExtraMiniMapGuides": false,
+		"oneColoredTeammates": false,
+		"showTime": true,
+		"timeHudTemplate": "%d.%m.%Y, %H:%i:%s",
+		"showTop5": true,
+		"teamboardLength": 20,
+		"showLbSectors": false,
+		"showLbData": true,
+		"showLbTotal": true,
+		"showLbBots": true,
+		"leaderboardLength": 10,
+		"lbRightAlign": false,
+		"normalLb": true,
+		"disableChat": false,
+		"chatEmoticons": true,
+		"showChatImages": true,
+		"showChatVideos": true,
+		"showChatBox": true,
+		"showMessageSenderId": true,
+		"showStats": true,
+		"statsAtCenter": true,
+		"showStatsMass": true,
+		"showStatsScore": true,
+		"showStatsSTE": false,
+		"showStatsN16": false,
+		"showStatsFPS": true,
+		"showStatsPING": true,
+		"showStatsPPS": true,
+		"menuSounds": true,
+		"chatSounds": true,
+		"messageSound_": "assets/sfx/notification_01.mp3",
+		"commandSound_": "assets/sfx/notification_02.mp3",
+		"virusEatSound": false,
+		"virusFeedSound": false,
+		"virusPopSound": false,
+		"x16Sound": true,
+		"non16Sound": true,
+		"showMultiProfile": true,
+		"touchControls": false,
+		"hideUserForms": false,
+		"autoCollectCoins": true,
+		"autoBrewingPotions": true,
+		"autoNotice": true
+	},
+	"ogarioThemeSettings": {
+		"bgColor": "#000a11ff",
+		"bordersColor": "#01d9ccff",
+		"gridColor": "#00243eff",
+		"sectorsColor": "#00243eff",
+		"strokeScale": 1,
+		"namesColor": "#ffffffff",
+		"namesStrokeColor": "#000000ff",
+		"massColor": "#ffffffff",
+		"massStrokeColor": "#000000ff",
+		"virusColor": "#002f5288",
+		"virusStrokeColor": "#00b9e8ff",
+		"virusRangeColor": "#666666ff",
+		"mothercellColor": "#002f5288",
+		"mothercellStrokeColor": "#00b9e8ff",
+		"mboxActiveCellStroke": "#ff00aaff",
+		"mboxUnactiveCellStroke": "#ffffffff",
+		"mergeIndicatorColor": "#00ff29ff",
+		"foodColor": "#5000ffff",
+		"foodSize": 4,
+		"foodGlowSize": 0,
+		"teammatesIndColor": "#ffffffff",
+		"cursorTrackingColor": "#ffffffbf",
+		"splitRangeColor": "#ffffffff",
+		"safeAreaColor": "#ffffffff",
+		"dangerAreaColor": "#bf00aaff",
+		"ghostCellsColor": "#ffffff7c",
+		"bHSTEColor": "#4000ffff",
+		"sHSTEColor": "#0040ffff",
+		"bDSTEColor": "#8000ffff",
+		"sDSTEColor": "#005a63ff",
+		"bSTEColor": "#ff00ffff",
+		"sSTEColor": "#80ff00ff",
+		"bColor": "#ff0000ff",
+		"eColor": "#ffff00ff",
+		"sColor": "#00ffffff",
+		"nickfont": "normal normal 500 2500px/normal Ubuntu",
+		"massfont": "normal normal 500 2500px/normal Ubuntu",
+		"namesScale": 1,
+		"massScale": 1.4,
+		"virMassScale": 1.8,
+		"sectorsfont": "normal normal 400 25px/normal \"Exo 2\"",
+		"sectorsfontSize": 1200,
+		"sectorsWidth": 40,
+		"bordersWidth": 20,
+		"darkTheme": true,
+		"mbRingWidth": 20,
+		"cursorTrackingSize": 6,
+		"virusStrokeSize": 14,
+		"cellBrightness": 0,
+		"cellSaturation": 0,
+		"cellsAlpha": 1,
+		"skinsAlpha": 1,
+		"customMapTexture": "",
+		"customMapLogo": "https://i.imgur.com/7cugADY.png",
+		"customBackground": "",
+		"menuOpacity": 0.96,
+		"menuBlur": 0,
+		"menuMainColor": "#01d9ccff",
+		"btnPrimaryColor": "#2d3f58ff",
+		"btnPrimaryColorHover": "#ffffff99",
+		"menuBtnTextColor": "#ffffffff",
+		"menuPanelColor": "#00243eff",
+		"menuTextColor": "#ffffffff",
+		"menuPanelColor2": "#1515154f",
+		"tabsColor": "#ffffffff",
+		"menuPanelColor2active": "#002f52ff",
+		"menuTextColor2": "#8096a7ff",
+		"inputBg": "#15151547",
+		"menuFont2": "normal normal 500 2500px/normal Roboto",
+		"menuBg": "",
+		"hudBlur": 0,
+		"hudMainColor": "#00d1c5ff",
+		"hudColor": "#00000066",
+		"hudTextColor": "#ffffffff",
+		"statsHudColor": "#ffffffff",
+		"timeHudColor": "#01d9ccff",
+		"top5MassColor": "#0f7ba3ff",
+		"lbMeColor": "#bf00aaff",
+		"lbFriendColor": "#018cf6ff",
+		"hudFont": "normal normal 500 2500px/normal Ubuntu",
+		"hudScale": 1,
+		"hudTransparency": 1,
+		"messageColor": "#bf00aa99",
+		"messageTextColor": "#ffffffff",
+		"messageTimeColor": "#018cf6ff",
+		"messageNickColor": "#01d9ccff",
+		"commandsColor": "#bf00aae6",
+		"commandsTextColor": "#ffffffff",
+		"commandsTimeColor": "#bf00aaff",
+		"commandsNickColor": "#ffffffff",
+		"chatBoxColor": "#0000006b",
+		"chatScale": 1,
+		"chatTextScale": 1,
+		"miniMapSectorsColor": "#ffffff88",
+		"miniMapNickColor": "#ffffffff",
+		"miniMapNickStrokeColor": "#000000ff",
+		"miniMapMyCellColor": "#ffffffff",
+		"miniMapMyCellStrokeColor": "#0076bfff",
+		"miniMapTeammatesColor": "#01d9ccff",
+		"miniMapViewportColor": "#aeaeae15",
+		"miniMapGuidesColor": "#bf00aaff",
+		"miniMapGhostCellsColor": "#ffffff67",
+		"miniMapFont": "normal normal 500 2500px/normal Ubuntu",
+		"miniMapNickfont": "normal normal 500 2500px/normal Ubuntu",
+		"miniMapNickSize": 8,
+		"miniMapNickStrokeSize": 2,
+		"miniMapCanvasScale": 1,
+		"miniMapScale": 1,
+		"miniMapMyCellSize": 5,
+		"miniMapMyCellStrokeSize": 2,
+		"miniMapTeammatesSize": 5.5,
+		"sectorsX": 5,
+		"sectorsY": 5,
+		"customCursor": ""
+	}
+}
