@@ -374,7 +374,7 @@
 	"settings": {
 		"language": "es_ES",
 		"animation": 157,
-		"autoZoom": false,
+		"autoZoom": true,
 		"centerWeightCamera": true,
 		"cameraDelay": 0,
 		"zoomSpeedValue": 0.8,
