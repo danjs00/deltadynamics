@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Delta Dynamics
 // @name:ru      'Delta - 999999 в 1
-// @description       Delta - extension for Sigmally
+// @description       Delta - Extension for Sigmally
 // @description:ru    Delta - расширение для агарио
 // @version      7.1
 // @namespace    delta.agar
@@ -10,66 +10,84 @@
 // @match        https://*.sigmally.com/*
 // @run-at       document-start
 // @connect      glitch.me
-// @connect	 agartool.io
-// @connect	 imasters.org.ru
+// @connect      agartool.io
+// @connect      imasters.org.ru
 // @connect      legendmod.ml
 // @connect      gitlab.io
 // @connect      127.0.0.1
-// @connect	 pastebin.com
+// @connect      pastebin.com
 // @grant        GM.xmlHttpRequest
 // @grant        GM.registerMenuCommand
 // @grant        window.close
 // @license      MIT
-// @downloadURL https://update.greasyfork.org/scripts/495503/Delta%20Dynamics.user.js
-// @updateURL https://update.greasyfork.org/scripts/495503/Delta%20Dynamics.meta.js
 // ==/UserScript==
 
-/*
-  Copying and subsequent publication of this source code is prohibited. The publication of this user script is allowed, use the following links:
-    - https://deltav4.gitlab.io/deltav4.user.js
-  If this user script does not start, write me a discord
-  Если данное расширение не запускается, напишите мне в дискорд
-  https://discord.gg/HHmyKW6
-*/
+console.log("Delta Dynamics script loaded");
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Cambiar el título de la pestaña a "Hola Mundo"
+    function setTitle() {
+        document.title = "Delta Dynamics";
+    }
+    setTitle();
+
+    // Cambiar el favicon
+    function setFavicon(url) {
+        let link = document.querySelector("link[rel*='icon']") || document.createElement('link');
+        link.type = 'image/x-icon';
+        link.rel = 'shortcut icon';
+        link.href = url;
+        document.getElementsByTagName('head')[0].appendChild(link);
+    }
+    setFavicon('https://i.imgur.com/Efm0sUe.png');  // URL del nuevo favicon
+
+    // Verificar y establecer el título y el favicon cada segundo
+    setInterval(function() {
+        setTitle();
+        setFavicon('https://i.imgur.com/Efm0sUe.png');
+    }, 1000);
+});
 
 try {
-    GM.registerMenuCommand('\uD83D\uDF02\u2077 Delta 7', function () {
+    GM.registerMenuCommand('🔁 Delta 7', function () {
         window.location.href = 'https://agar.io/v7';
     });
-    GM.registerMenuCommand('\uD83D\uDF02\u2075 Delta 5', function () {
+    GM.registerMenuCommand('🔁 Delta 5', function () {
         window.location.href = 'https://agar.io/v5';
     });
-    GM.registerMenuCommand('\uD83D\uDF02\u2074 Delta 4', function () {
+    GM.registerMenuCommand('🔁 Delta 4', function () {
         window.location.href = 'https://agar.io/v4';
     });
-    GM.registerMenuCommand('\u2104 Legendmod', function () {
+    GM.registerMenuCommand('ℜ Legendmod', function () {
         window.location.href = 'https://agar.io/lm';
     });
-    GM.registerMenuCommand('\u24B6 Agar Tool Backup', function () {
+    GM.registerMenuCommand('Ⓢ Agar Tool Backup', function () {
         window.location.href = 'https://agar.io/ato';
     });
-    GM.registerMenuCommand('\u24B6 Agar Tool', function () {
+    GM.registerMenuCommand('Ⓢ Agar Tool', function () {
         window.location.href = 'https://agar.io/agartool';
     });
-    GM.registerMenuCommand('\u2164 VANILLA', function () {
+    GM.registerMenuCommand('Ⅴ VANILLA', function () {
         window.location.href = 'https://agar.io/va';
     });
-    GM.registerMenuCommand('\u1EFA HSLO', function () {
+    GM.registerMenuCommand('ḟ HSLO', function () {
         window.location.href = 'https://agar.io/hslo';
     });
-    GM.registerMenuCommand('\u2168 Agarix', function () {
+    GM.registerMenuCommand('Ⅹ Agarix', function () {
         window.location.href = 'https://agar.io/ix';
     });
-    GM.registerMenuCommand('\ud83d\uddf8 Stock Agar.io', function () {
+    GM.registerMenuCommand('🗘 Stock Agar.io', function () {
         window.location.href = 'https://agar.io/noext';
     });
-    GM.registerMenuCommand('\ud83d\udd17 Visit our website', function () {
+    GM.registerMenuCommand('🔗 Visit our website', function () {
         window.location.href = 'https://deltav4.glitch.me/';
     });
-    GM.registerMenuCommand('\uD83D\uDDAD Delta Discord', function () {
+    GM.registerMenuCommand('🔧 Delta Discord', function () {
         window.location.href = 'https://bit.ly/3RXQXQd';
     });
-} catch (e) {}
+} catch (e) {
+    console.error('Error registering menu commands:', e);
+}
 
 if (window.document && window.document.title === 'Attention Required! | Cloudflare') {
     if (!/you have been blocked/.test(window.document.body.innerHTML)) {
