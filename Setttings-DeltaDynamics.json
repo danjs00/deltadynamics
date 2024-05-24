@@ -19,7 +19,7 @@
 		"4NOV": {
 			"t": "hk-doubleSplit",
 			"m": "",
-			"k": "C"
+			"k": "D"
 		},
 		"LcSa": {
 			"t": "hk-popSplit",
@@ -364,73 +364,10 @@
 	},
 	"ogarioPlayerProfiles": [
 		{
-			"id": "ec613393-4135-4f69-b007-9201da6351f5",
+			"id": "6f837ace-75cd-4502-9663-8bd1b51ed6fc",
 			"nick": "Delta Dynamics",
 			"clanTag": "",
-			"skinURL": "https://i.imgur.com/tiOlTDg.png",
-			"color": "#3633A5"
-		},
-		{
-			"id": "e7f95ca6-d928-47f7-902a-831f0b1f8086",
-			"nick": "Anonym #1",
-			"clanTag": "",
-			"skinURL": "https://i.imgur.com/LOfcypF.gif",
-			"color": "#3633A5"
-		},
-		{
-			"id": "09e8fd44-dd6d-49d3-8eb5-1e01ee37f7ca",
-			"nick": "Anonym #2",
-			"clanTag": "",
-			"skinURL": "https://i.imgur.com/0K0rUcz.png",
-			"color": "#3633A5"
-		},
-		{
-			"id": "4806fba8-a5c3-47b2-8ce4-a415bb1c1316",
-			"nick": "Anonym #3",
-			"clanTag": "",
-			"skinURL": "https://i.imgur.com/3pmuMaG.png",
-			"color": "#3633A5"
-		},
-		{
-			"id": "0c99edd8-b990-4a1c-b12e-214c79e3ac1d",
-			"nick": "Anonym #4",
-			"clanTag": "",
-			"skinURL": "https://i.imgur.com/qjMepHS.png",
-			"color": "#3633A5"
-		},
-		{
-			"id": "c0572d53-9d33-4d12-8aae-78c1969490a9",
-			"nick": "Anonym #5",
-			"clanTag": "",
-			"skinURL": "https://i.imgur.com/Y614gkS.jpeg",
-			"color": "#3633A5"
-		},
-		{
-			"id": "777cdcf1-7380-4163-a7d8-70e79a2faf45",
-			"nick": "Anonym #6",
-			"clanTag": "",
-			"skinURL": "https://i.imgur.com/dIBuTQb.jpeg",
-			"color": "#3633A5"
-		},
-		{
-			"id": "43f19568-d43b-4ea4-9a75-9da1f943efa2",
-			"nick": "Anonym #7",
-			"clanTag": "",
-			"skinURL": "https://i.imgur.com/VhAvTfp.png",
-			"color": "#3633A5"
-		},
-		{
-			"id": "1703a6d1-89d4-4e74-8651-ade9f97b0b18",
-			"nick": "Anonym #8",
-			"clanTag": "",
-			"skinURL": "https://i.imgur.com/dLHTwi1.jpeg",
-			"color": "#3633A5"
-		},
-		{
-			"id": "7d87847e-5053-4b93-b554-137b0daf9b2f",
-			"nick": "Anonym #9",
-			"clanTag": "",
-			"skinURL": "https://i.imgur.com/mD6bbMx.png",
+			"skinURL": "",
 			"color": "#3633A5"
 		}
 	],
@@ -497,9 +434,9 @@
 		"showGrid": true,
 		"showBgSectors": false,
 		"customBgSectorsSymbol": "",
-		"showMapBorders": true,
-		"rainbowMapBorders": true,
-		"rainbowMapBordersSpeed": 0.1,
+		"showMapBorders": false,
+		"rainbowMapBorders": false,
+		"rainbowMapBordersSpeed": -1,
 		"showMiniMap": true,
 		"showMiniMapSectors": true,
 		"showMiniMapGrid": true,
