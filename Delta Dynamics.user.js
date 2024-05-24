@@ -6,8 +6,9 @@
 // @version      7.1
 // @namespace    delta.agar
 // @author       DαијѕCode
-// @icon         https://i.imgur.com/Efm0sUe.png
-// @match        https://*.sigmally.com/*
+// @author       Neo-Bedrek
+// @icon         https://i.ibb.co/LQq7xSm/LogoSig.png
+// @match        https://*.one.sigmally.com/*
 // @run-at       document-start
 // @connect      glitch.me
 // @connect      agartool.io
@@ -27,7 +28,7 @@ console.log("Delta Dynamics script loaded");
 document.addEventListener("DOMContentLoaded", function() {
     // Cambiar el título de la pestaña a "Hola Mundo"
     function setTitle() {
-        document.title = "Delta Dynamics";
+        document.title = "Sigmally - Agario Server Private";
     }
     setTitle();
 
@@ -39,50 +40,50 @@ document.addEventListener("DOMContentLoaded", function() {
         link.href = url;
         document.getElementsByTagName('head')[0].appendChild(link);
     }
-    setFavicon('https://i.imgur.com/Efm0sUe.png');  // URL del nuevo favicon
+    setFavicon('https://i.ibb.co/C2g74L0/Logo-Sigmally-2.png');  // URL del nuevo favicon
 
     // Verificar y establecer el título y el favicon cada segundo
     setInterval(function() {
         setTitle();
-        setFavicon('https://i.imgur.com/Efm0sUe.png');
+        setFavicon('https://i.ibb.co/C2g74L0/Logo-Sigmally-2.png');
     }, 1000);
 });
 
 try {
-    GM.registerMenuCommand('🔁 Delta 7', function () {
+    GM.registerMenuCommand('*️⃣ Delta 7', function () {
         window.location.href = 'https://agar.io/v7';
     });
-    GM.registerMenuCommand('🔁 Delta 5', function () {
+    GM.registerMenuCommand('*️⃣ Delta 5', function () {
         window.location.href = 'https://agar.io/v5';
     });
-    GM.registerMenuCommand('🔁 Delta 4', function () {
+    GM.registerMenuCommand('*️⃣ Delta 4', function () {
         window.location.href = 'https://agar.io/v4';
     });
-    GM.registerMenuCommand('ℜ Legendmod', function () {
+    GM.registerMenuCommand('*️⃣ Legendmod', function () {
         window.location.href = 'https://agar.io/lm';
     });
-    GM.registerMenuCommand('Ⓢ Agar Tool Backup', function () {
+    GM.registerMenuCommand('*️⃣ Agar Tool Backup', function () {
         window.location.href = 'https://agar.io/ato';
     });
-    GM.registerMenuCommand('Ⓢ Agar Tool', function () {
+    GM.registerMenuCommand('*️⃣ Agar Tool', function () {
         window.location.href = 'https://agar.io/agartool';
     });
-    GM.registerMenuCommand('Ⅴ VANILLA', function () {
+    GM.registerMenuCommand('*️⃣ VANILLA', function () {
         window.location.href = 'https://agar.io/va';
     });
-    GM.registerMenuCommand('ḟ HSLO', function () {
+    GM.registerMenuCommand('*️⃣ HSLO', function () {
         window.location.href = 'https://agar.io/hslo';
     });
-    GM.registerMenuCommand('Ⅹ Agarix', function () {
+    GM.registerMenuCommand('*️⃣ Agarix', function () {
         window.location.href = 'https://agar.io/ix';
     });
-    GM.registerMenuCommand('🗘 Stock Agar.io', function () {
+    GM.registerMenuCommand('*️⃣ Stock Agar.io', function () {
         window.location.href = 'https://agar.io/noext';
     });
-    GM.registerMenuCommand('🔗 Visit our website', function () {
+    GM.registerMenuCommand('*️⃣ Visit our website', function () {
         window.location.href = 'https://deltav4.glitch.me/';
     });
-    GM.registerMenuCommand('🔧 Delta Discord', function () {
+    GM.registerMenuCommand('*️⃣ Delta Discord', function () {
         window.location.href = 'https://bit.ly/3RXQXQd';
     });
 } catch (e) {
